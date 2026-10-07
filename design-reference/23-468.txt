@@ -1,0 +1,134 @@
+export default function Component07TaskDetailsHandoffInteractive() {
+  return (
+    <div className="bg-[var(--hr-canvas,#f4f6fa)] content-stretch flex flex-col items-start relative size-full" data-node-id="23:468" data-name="07 · Task Details & Handoff · Interactive">
+      <div className="bg-[var(--hr-nav,#14233e)] content-stretch flex gap-[62px] h-[88px] items-center overflow-clip px-[64px] relative shrink-0 w-[1440px]" data-node-id="23:469" data-name="Navigation">
+        <a className="[word-break:break-word] block cursor-pointer font-['Inter:Bold'] font-bold leading-[0] not-italic opacity-72 relative shrink-0 text-[24px] text-white whitespace-nowrap" data-node-id="I23:469;15:248">
+          <p className="leading-[1.5]">HackRelay</p>
+        </a>
+        <div className="[word-break:break-word] content-stretch cursor-pointer flex gap-[36px] h-[48px] items-center leading-[0] not-italic overflow-clip relative shrink-0 text-[15px] text-white w-[945px] whitespace-nowrap" data-node-id="I23:469;15:249" data-name="Navigation links">
+          <a className="block font-['Inter:Semi_Bold'] font-semibold opacity-72 relative shrink-0" data-node-id="I23:469;15:250">
+            <p className="leading-[1.5]">Events</p>
+          </a>
+          <a className="block font-['Inter:Bold'] font-bold relative shrink-0" data-node-id="I23:469;15:251">
+            <p className="[text-underline-position:from-font] decoration-from-font decoration-solid leading-[1.5] underline">Workspace</p>
+          </a>
+          <a className="block font-['Inter:Medium'] font-medium opacity-72 relative shrink-0" data-node-id="I23:469;15:252">
+            <p className="leading-[1.5]">Repository</p>
+          </a>
+          <a className="block font-['Inter:Medium'] font-medium opacity-72 relative shrink-0" data-node-id="I23:469;15:253">
+            <p className="leading-[1.5]">Docs</p>
+          </a>
+          <a className="block font-['Inter:Medium'] font-medium opacity-72 relative shrink-0" data-node-id="I23:469;15:254">
+            <p className="leading-[1.5]">Report</p>
+          </a>
+        </div>
+        <div className="bg-[var(--hr-surface,white)] content-stretch flex h-[40px] items-center justify-center overflow-clip relative rounded-[20px] shrink-0 w-[48px]" data-node-id="I23:469;15:255" data-name="Profile entry">
+          <a className="[word-break:break-word] block cursor-pointer font-['Inter:Semi_Bold'] font-semibold leading-[0] not-italic relative shrink-0 text-[13px] text-[color:var(--hr-brand,#3059e8)] whitespace-nowrap" data-node-id="I23:469;15:256">
+            <p className="leading-[1.5]">JD</p>
+          </a>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col gap-[24px] h-[1032px] items-start overflow-clip px-[64px] py-[32px] relative shrink-0 w-[1440px]" data-node-id="23:470" data-name="Page content">
+        <div className="[word-break:break-word] content-stretch flex flex-col gap-[6px] h-[72px] items-start leading-[1.5] not-italic overflow-clip relative shrink-0 w-[1312px]" data-node-id="23:471" data-name="Page heading">
+          <p className="font-['Inter:Bold'] font-bold relative shrink-0 text-[30px] text-[color:var(--hr-ink,#18243b)] w-[1312px]" data-node-id="23:472">{`Task Details & Handoff`}</p>
+          <p className="font-['Inter:Regular'] font-normal h-[23px] relative shrink-0 text-[14px] text-[color:var(--hr-muted,#66758c)] w-[1312px] whitespace-pre-wrap" data-node-id="23:473">{`Workspace  /   Table Detail  /   Time left: 04:32`}</p>
+        </div>
+        <div className="content-stretch flex gap-[24px] h-[650px] items-start overflow-clip relative shrink-0 w-[1312px]" data-node-id="23:474" data-name="Main columns">
+          <div className="content-stretch flex flex-col gap-[16px] h-[650px] items-start overflow-clip relative shrink-0 w-[860px]" data-node-id="23:475" data-name="Main area">
+            <div className="[word-break:break-word] bg-[var(--hr-surface,white)] border border-[var(--hr-border,#dfe5ef)] border-solid content-stretch flex flex-col gap-[16px] h-[230px] items-start not-italic overflow-clip p-[24px] relative rounded-[var(--hr-radius,12px)] shadow-[0px_3px_14px_0px_rgba(23,36,61,0.05)] shrink-0 w-[860px]" data-node-id="23:476" data-name="Task summary">
+              <p className="font-['Inter:Semi_Bold'] font-semibold leading-[1.5] relative shrink-0 text-[18px] text-[color:var(--hr-ink,#18243b)] w-[812px]" data-node-id="23:477">
+                Task summary
+              </p>
+              <div className="font-['Inter:Regular'] font-normal leading-[0] relative shrink-0 text-[15px] text-[color:var(--hr-muted,#66758c)] w-[812px] whitespace-pre-wrap" data-node-id="23:478">
+                <p className="leading-[1.5] mb-0">Build the community discovery prototype</p>
+                <p className="leading-[1.5] mb-0">Create a searchable event list and an accessible event detail view.</p>
+                <p className="leading-[1.5] mb-0">​</p>
+                <p className="leading-[1.5]">{`Owner: Maya Patel    Status: In progress`}</p>
+              </div>
+            </div>
+            <div className="[word-break:break-word] bg-[var(--hr-surface,white)] border border-[var(--hr-border,#dfe5ef)] border-solid content-stretch flex flex-col gap-[16px] h-[150px] items-start not-italic overflow-clip p-[24px] relative rounded-[var(--hr-radius,12px)] shadow-[0px_3px_14px_0px_rgba(23,36,61,0.05)] shrink-0 w-[860px]" data-node-id="23:479" data-name="Dependencies">
+              <p className="font-['Inter:Semi_Bold'] font-semibold leading-[1.5] relative shrink-0 text-[18px] text-[color:var(--hr-ink,#18243b)] w-[812px]" data-node-id="23:480">
+                Dependencies
+              </p>
+              <div className="font-['Inter:Regular'] font-normal leading-[0] relative shrink-0 text-[15px] text-[color:var(--hr-muted,#66758c)] w-[812px]" data-node-id="23:481">
+                <p className="leading-[1.5] mb-0">Depends on: Define user needs ✓</p>
+                <p className="leading-[1.5]">Sam is waiting for the API integration.</p>
+              </div>
+            </div>
+            <div className="bg-[var(--hr-surface,white)] border border-[var(--hr-border,#dfe5ef)] border-solid content-stretch flex flex-col gap-[12px] h-[228px] items-start overflow-clip p-[24px] relative rounded-[var(--hr-radius,12px)] shadow-[0px_3px_14px_0px_rgba(23,36,61,0.05)] shrink-0 w-[860px]" data-node-id="23:482" data-name="Handoff note">
+              <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.5] not-italic relative shrink-0 text-[18px] text-[color:var(--hr-ink,#18243b)] w-[812px]" data-node-id="23:483">
+                Handoff note
+              </p>
+              <a className="bg-[var(--hr-canvas,#f4f6fa)] border border-[var(--hr-border,#dfe5ef)] border-solid content-stretch cursor-pointer flex flex-col h-[141px] items-start overflow-clip px-[16px] py-[12px] relative rounded-[var(--hr-buttonRadius,8px)] shrink-0 w-[812px]" data-node-id="23:484" data-name="Handoff note field">
+                <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[1.5] not-italic relative shrink-0 text-[14px] text-[color:var(--hr-muted,#66758c)] text-left w-[780px]" data-node-id="23:485">
+                  Completed work / remaining work / linked materials…
+                </p>
+              </a>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col gap-[16px] h-[650px] items-start overflow-clip relative shrink-0 w-[428px]" data-node-id="23:486" data-name="Side panel">
+            <div className="[word-break:break-word] bg-[var(--hr-surface,white)] border border-[var(--hr-border,#dfe5ef)] border-solid content-stretch flex flex-col gap-[16px] h-[390px] items-start not-italic overflow-clip p-[24px] relative rounded-[var(--hr-radius,12px)] shadow-[0px_3px_14px_0px_rgba(23,36,61,0.05)] shrink-0 w-[428px]" data-node-id="23:487" data-name="Task history & discussion">
+              <p className="font-['Inter:Semi_Bold'] font-semibold leading-[1.5] relative shrink-0 text-[18px] text-[color:var(--hr-ink,#18243b)] w-[380px]" data-node-id="23:488">{`Task history & discussion`}</p>
+              <div className="font-['Inter:Regular'] font-normal leading-[0] relative shrink-0 text-[15px] text-[color:var(--hr-muted,#66758c)] w-[380px] whitespace-pre-wrap" data-node-id="23:489">
+                <p className="leading-[1.5] mb-0">Alex Chen created this task</p>
+                <p className="leading-[1.5] mb-0">Today, 10:15 AM</p>
+                <p className="leading-[1.5] mb-0">​</p>
+                <p className="leading-[1.5] mb-0">Maya Patel started the prototype</p>
+                <p className="leading-[1.5] mb-0">Today, 11:40 AM</p>
+                <p className="leading-[1.5] mb-0">​</p>
+                <p className="leading-[1.5]">Add a comment…</p>
+              </div>
+            </div>
+            <a className="bg-[var(--hr-surface,white)] border border-[var(--hr-border,#dfe5ef)] border-solid content-stretch cursor-pointer flex h-[46px] items-center justify-center overflow-clip relative rounded-[var(--hr-buttonRadius,8px)] shrink-0 w-[428px]" data-node-id="23:490" data-name="Open linked code">
+              <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.5] not-italic relative shrink-0 text-[15px] text-[color:var(--hr-ink,#18243b)] text-left whitespace-nowrap" data-node-id="I23:490;15:96">
+                Open linked code
+              </p>
+            </a>
+            <button className="bg-[var(--hr-brand,#3059e8)] border border-[var(--hr-border,#dfe5ef)] border-solid content-stretch cursor-pointer flex h-[46px] items-center justify-center overflow-clip relative rounded-[var(--hr-buttonRadius,8px)] shrink-0 w-[428px]" data-node-id="23:491" data-name="Mark ready for review">
+              <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.5] not-italic relative shrink-0 text-[15px] text-[color:var(--hr-onBrand,white)] text-left whitespace-nowrap" data-node-id="I23:491;15:93">
+                Mark ready for review
+              </p>
+            </button>
+          </div>
+        </div>
+        <div className="content-stretch cursor-pointer flex gap-[12px] h-[46px] items-center overflow-clip relative shrink-0 w-[1312px]" data-node-id="23:492" data-name="Actions">
+          <a className="bg-[var(--hr-surface,white)] border border-[var(--hr-border,#dfe5ef)] border-solid content-stretch flex h-[46px] items-center justify-center overflow-clip relative rounded-[var(--hr-buttonRadius,8px)] shrink-0 w-[215px]" data-node-id="23:493" data-name="← Back to workspace">
+            <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.5] not-italic relative shrink-0 text-[15px] text-[color:var(--hr-ink,#18243b)] text-left whitespace-nowrap" data-node-id="I23:493;15:96">
+              ← Back to workspace
+            </p>
+          </a>
+          <button className="bg-[var(--hr-brand,#3059e8)] border border-[var(--hr-border,#dfe5ef)] border-solid content-stretch flex h-[46px] items-center justify-center overflow-clip relative rounded-[var(--hr-buttonRadius,8px)] shrink-0 w-[210px]" data-node-id="23:494" data-name="Save handoff note">
+            <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.5] not-italic relative shrink-0 text-[15px] text-[color:var(--hr-onBrand,white)] text-left whitespace-nowrap" data-node-id="I23:494;15:93">
+              Save handoff note
+            </p>
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## HackRelay/Navigation/Workspace
+**Node ID:** 15:257
+
+Global navigation with Workspace selected.
+
+## HackRelay/Button/Secondary
+**Node ID:** 15:97
+
+Action button; editable label with consistent brand styling.
+
+## HackRelay/Button/Primary
+**Node ID:** 15:94
+
+Action button; editable label with consistent brand styling.
+Images and SVGs will be stored as constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

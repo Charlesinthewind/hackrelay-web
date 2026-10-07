@@ -1,0 +1,127 @@
+export default function Component18ReportAnIssue() {
+  return (
+    <div className="bg-[var(--hr-canvas,#f4f6fa)] content-stretch flex flex-col items-start relative size-full" data-node-id="23:777" data-name="18 / Report an Issue">
+      <div className="bg-[var(--hr-nav,#14233e)] content-stretch flex gap-[62px] h-[88px] items-center overflow-clip px-[64px] relative shrink-0 w-[1440px]" data-node-id="23:778" data-name="Navigation">
+        <a className="[word-break:break-word] block cursor-pointer font-['Inter:Bold'] font-bold leading-[0] not-italic opacity-72 relative shrink-0 text-[24px] text-white whitespace-nowrap" data-node-id="I23:778;129:3">
+          <p className="leading-[1.5]">HackRelay</p>
+        </a>
+        <div className="[word-break:break-word] content-stretch cursor-pointer flex gap-[36px] h-[48px] items-center leading-[0] not-italic overflow-clip relative shrink-0 text-[15px] text-white w-[945px] whitespace-nowrap" data-node-id="I23:778;129:4" data-name="Navigation links">
+          <a className="block font-['Inter:Semi_Bold'] font-semibold opacity-72 relative shrink-0" data-node-id="I23:778;129:5">
+            <p className="leading-[1.45]">Events</p>
+          </a>
+          <a className="block font-['Inter:Medium'] font-medium opacity-72 relative shrink-0" data-node-id="I23:778;129:6">
+            <p className="[text-underline-position:from-font] decoration-from-font decoration-solid leading-[1.45] underline">Workspace</p>
+          </a>
+          <a className="block font-['Inter:Medium'] font-medium opacity-72 relative shrink-0" data-node-id="I23:778;129:7">
+            <p className="leading-[1.45]">Repository</p>
+          </a>
+          <a className="block font-['Inter:Medium'] font-medium opacity-72 relative shrink-0" data-node-id="I23:778;129:8">
+            <p className="leading-[1.45]">Docs</p>
+          </a>
+          <a className="block font-['Inter:Medium'] font-medium relative shrink-0" data-node-id="I23:778;129:9">
+            <p className="leading-[1.45]">Report</p>
+          </a>
+        </div>
+        <div className="bg-[var(--hr-surface,white)] content-stretch flex h-[40px] items-center justify-center overflow-clip relative rounded-[20px] shrink-0 w-[48px]" data-node-id="I23:778;129:10" data-name="Profile entry">
+          <a className="[word-break:break-word] block cursor-pointer font-['Inter:Semi_Bold'] font-semibold leading-[0] not-italic relative shrink-0 text-[13px] text-[color:var(--hr-brand,#3059e8)] whitespace-nowrap" data-node-id="I23:778;129:11">
+            <p className="leading-[1.45]">JD</p>
+          </a>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col gap-[24px] h-[1032px] items-start overflow-clip px-[64px] py-[32px] relative shrink-0 w-[1440px]" data-node-id="23:779" data-name="Page content">
+        <div className="[word-break:break-word] content-stretch flex flex-col gap-[4px] h-[72px] items-start leading-[1.5] not-italic overflow-clip relative rounded-[var(--hr-radius,12px)] shrink-0 w-[1312px]" data-node-id="23:780" data-name="Heading">
+          <p className="font-['Inter:Bold'] font-bold relative shrink-0 text-[30px] text-[color:var(--hr-ink,#18243b)] w-[1312px]" data-node-id="23:781">
+            Report an Issue
+          </p>
+          <p className="font-['Inter:Regular'] font-normal relative shrink-0 text-[15px] text-[color:var(--hr-muted,#66758c)] w-[1312px]" data-node-id="23:782">
+            Tell the organisers about a conduct, safety, privacy, or submission concern.
+          </p>
+        </div>
+        <div className="[word-break:break-word] bg-[var(--hr-tint,#edf2ff)] content-stretch flex flex-col gap-[8px] h-[96px] items-start leading-[1.5] not-italic overflow-clip p-[20px] relative rounded-[var(--hr-radius,12px)] shadow-[0px_3px_14px_0px_rgba(23,36,61,0.05)] shrink-0 w-[1312px]" data-node-id="23:783" data-name="Privacy notice">
+          <p className="font-['Inter:Semi_Bold'] font-semibold relative shrink-0 text-[18px] text-[color:var(--hr-ink,#18243b)] whitespace-nowrap" data-node-id="23:784">
+            Privacy notice
+          </p>
+          <p className="font-['Inter:Regular'] font-normal relative shrink-0 text-[15px] text-[color:var(--hr-muted,#66758c)] w-[1272px]" data-node-id="23:785">
+            Only event organisers can access this report. Share only the information needed to explain the issue.
+          </p>
+        </div>
+        <div className="content-stretch flex gap-[24px] h-[560px] items-start overflow-clip relative rounded-[var(--hr-radius,12px)] shrink-0 w-[1312px]" data-node-id="23:786" data-name="Report layout">
+          <div className="bg-[var(--hr-surface,white)] border border-[var(--hr-border,#dfe5ef)] border-solid content-stretch flex flex-col gap-[16px] h-[560px] items-start overflow-clip relative rounded-[var(--hr-radius,12px)] shadow-[0px_3px_14px_0px_rgba(23,36,61,0.05)] shrink-0 w-[860px]" data-node-id="23:787" data-name="Report form">
+            <a className="[word-break:break-word] bg-[var(--hr-surface,white)] border border-[var(--hr-border,#dfe5ef)] border-solid content-stretch cursor-pointer flex flex-col gap-[12px] h-[180px] items-start not-italic overflow-clip p-[24px] relative rounded-[var(--hr-radius,12px)] shadow-[0px_3px_14px_0px_rgba(23,36,61,0.05)] shrink-0 text-left w-[860px]" data-node-id="23:788" data-name="Linked item and category">
+              <p className="font-['Inter:Semi_Bold'] font-semibold leading-[1.5] relative shrink-0 text-[18px] text-[color:var(--hr-ink,#18243b)] whitespace-nowrap" data-node-id="23:789">{`Linked item & category`}</p>
+              <div className="font-['Inter:Regular'] font-normal leading-[0] relative shrink-0 text-[15px] text-[color:var(--hr-muted,#66758c)] w-[812px]" data-node-id="23:790">
+                <p className="leading-[1.5] mb-0">Related project, task, team, or event: Select an item</p>
+                <p className="leading-[1.5] mb-0">Issue category: Select a category</p>
+                <p className="leading-[1.5]">Who is affected: Select an option</p>
+              </div>
+            </a>
+            <div className="bg-[var(--hr-surface,white)] border border-[var(--hr-border,#dfe5ef)] border-solid content-stretch flex flex-col gap-[12px] h-[364px] items-start overflow-clip p-[24px] relative rounded-[var(--hr-radius,12px)] shadow-[0px_3px_14px_0px_rgba(23,36,61,0.05)] shrink-0 w-[860px]" data-node-id="23:791" data-name="Description and evidence">
+              <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.5] not-italic relative shrink-0 text-[18px] text-[color:var(--hr-ink,#18243b)] whitespace-nowrap" data-node-id="23:792">{`Description & evidence`}</p>
+              <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[1.5] not-italic relative shrink-0 text-[15px] text-[color:var(--hr-muted,#66758c)] w-[812px]" data-node-id="23:793">
+                Describe what happened, when it happened, and what support you need.
+              </p>
+              <a className="bg-[var(--hr-canvas,#f4f6fa)] border border-[var(--hr-border,#dfe5ef)] border-solid content-stretch cursor-pointer flex flex-col h-[150px] items-start overflow-clip p-[16px] relative rounded-[var(--hr-buttonRadius,8px)] shrink-0 w-[812px]" data-node-id="23:794" data-name="Description field">
+                <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[1.5] not-italic relative shrink-0 text-[15px] text-[color:var(--hr-muted,#66758c)] text-left whitespace-nowrap" data-node-id="23:795">
+                  Enter details here…
+                </p>
+              </a>
+              <a className="bg-[var(--hr-surface,white)] border border-[var(--hr-border,#dfe5ef)] border-solid content-stretch cursor-pointer flex h-[54px] items-center overflow-clip p-[16px] relative rounded-[var(--hr-radius,12px)] shadow-[0px_3px_14px_0px_rgba(23,36,61,0.05)] shrink-0 w-[812px]" data-node-id="23:796" data-name="Evidence upload">
+                <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[1.5] not-italic relative shrink-0 text-[15px] text-[color:var(--hr-muted,#66758c)] text-left whitespace-nowrap" data-node-id="23:797">
+                  Attach screenshots or files (optional)
+                </p>
+              </a>
+            </div>
+          </div>
+          <div className="[word-break:break-word] bg-[var(--hr-surface,white)] border border-[var(--hr-border,#dfe5ef)] border-solid content-stretch flex flex-col gap-[16px] h-[560px] items-start not-italic overflow-clip p-[24px] relative rounded-[var(--hr-radius,12px)] shadow-[0px_3px_14px_0px_rgba(23,36,61,0.05)] shrink-0 w-[428px]" data-node-id="23:798" data-name="What happens next">
+            <p className="font-['Inter:Semi_Bold'] font-semibold leading-[1.5] relative shrink-0 text-[18px] text-[color:var(--hr-ink,#18243b)] whitespace-nowrap" data-node-id="23:799">
+              What happens next
+            </p>
+            <div className="font-['Inter:Regular'] font-normal leading-[0] relative shrink-0 text-[15px] text-[color:var(--hr-muted,#66758c)] w-[380px] whitespace-pre-wrap" data-node-id="23:800">
+              <p className="leading-[1.5] mb-0">1. An organiser reviews the report.</p>
+              <p className="leading-[1.5] mb-0">​</p>
+              <p className="leading-[1.5] mb-0">2. They may contact you for more information.</p>
+              <p className="leading-[1.5] mb-0">​</p>
+              <p className="leading-[1.5] mb-0">3. Urgent safety concerns are prioritised.</p>
+              <p className="leading-[1.5] mb-0">​</p>
+              <p className="leading-[1.5] mb-0">4. You receive an update through the event workspace.</p>
+              <p className="leading-[1.5] mb-0">​</p>
+              <p className="leading-[1.5]">If someone is in immediate danger, contact local emergency services.</p>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch cursor-pointer flex gap-[16px] h-[46px] items-center overflow-clip relative shrink-0 w-[1312px]" data-node-id="23:801" data-name="Actions">
+          <button className="bg-[var(--hr-brand,#3059e8)] border border-[var(--hr-border,#dfe5ef)] border-solid content-stretch flex h-[46px] items-center justify-center overflow-clip relative rounded-[var(--hr-buttonRadius,8px)] shrink-0 w-[180px]" data-node-id="23:802" data-name="Submit report">
+            <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.5] not-italic relative shrink-0 text-[15px] text-[color:var(--hr-onBrand,white)] text-left whitespace-nowrap" data-node-id="I23:802;15:93">
+              Submit report
+            </p>
+          </button>
+          <a className="bg-[var(--hr-surface,white)] border border-[var(--hr-border,#dfe5ef)] border-solid content-stretch flex h-[46px] items-center justify-center overflow-clip relative rounded-[var(--hr-buttonRadius,8px)] shrink-0 w-[120px]" data-node-id="23:803" data-name="Cancel">
+            <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.5] not-italic relative shrink-0 text-[15px] text-[color:var(--hr-ink,#18243b)] text-left whitespace-nowrap" data-node-id="I23:803;15:96">
+              Cancel
+            </p>
+          </a>
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## HackRelay/Button/Primary
+**Node ID:** 15:94
+
+Action button; editable label with consistent brand styling.
+
+## HackRelay/Button/Secondary
+**Node ID:** 15:97
+
+Action button; editable label with consistent brand styling.
+Images and SVGs will be stored as constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

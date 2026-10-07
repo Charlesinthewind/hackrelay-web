@@ -1,0 +1,105 @@
+export default function Component21DocumentsInteractive() {
+  return (
+    <div className="bg-[var(--hr-canvas,#f4f6fa)] relative size-full" data-node-id="23:851" data-name="21 · Documents · Interactive">
+      <div className="absolute bg-[var(--hr-nav,#14233e)] content-stretch flex gap-[62px] h-[88px] items-center left-0 overflow-clip px-[64px] top-0 w-[1440px]" data-node-id="23:852" data-name="Navigation">
+        <a className="[word-break:break-word] block cursor-pointer font-['Inter:Bold'] font-bold leading-[0] not-italic opacity-72 relative shrink-0 text-[24px] text-white whitespace-nowrap" data-node-id="I23:852;15:248">
+          <p className="leading-[1.5]">HackRelay</p>
+        </a>
+        <div className="[word-break:break-word] content-stretch flex gap-[36px] h-[48px] items-center not-italic overflow-clip relative shrink-0 text-[15px] text-white w-[945px] whitespace-nowrap" data-node-id="I23:852;15:249" data-name="Navigation links">
+          <a className="block cursor-pointer font-['Inter:Semi_Bold'] font-semibold leading-[0] opacity-72 relative shrink-0" data-node-id="I23:852;15:250">
+            <p className="leading-[1.5]">Events</p>
+          </a>
+          <a className="block cursor-pointer font-['Inter:Bold'] font-bold leading-[0] opacity-72 relative shrink-0" data-node-id="I23:852;15:251">
+            <p className="[text-underline-position:from-font] decoration-from-font decoration-solid leading-[1.5] underline">Workspace</p>
+          </a>
+          <a className="block cursor-pointer font-['Inter:Medium'] font-medium leading-[0] opacity-72 relative shrink-0" data-node-id="I23:852;15:252">
+            <p className="leading-[1.5]">Repository</p>
+          </a>
+          <p className="font-['Inter:Medium'] font-medium leading-[1.5] relative shrink-0" data-node-id="I23:852;15:253">
+            Docs
+          </p>
+          <a className="block cursor-pointer font-['Inter:Medium'] font-medium leading-[0] opacity-72 relative shrink-0" data-node-id="I23:852;15:254">
+            <p className="leading-[1.5]">Report</p>
+          </a>
+        </div>
+        <div className="bg-[var(--hr-surface,white)] content-stretch flex h-[40px] items-center justify-center overflow-clip relative rounded-[20px] shrink-0 w-[48px]" data-node-id="I23:852;15:255" data-name="Profile entry">
+          <a className="[word-break:break-word] block cursor-pointer font-['Inter:Semi_Bold'] font-semibold leading-[0] not-italic relative shrink-0 text-[13px] text-[color:var(--hr-brand,#3059e8)] whitespace-nowrap" data-node-id="I23:852;15:256">
+            <p className="leading-[1.5]">JD</p>
+          </a>
+        </div>
+      </div>
+      <p className="[word-break:break-word] absolute font-['Inter:Bold'] font-bold leading-[1.5] left-[52px] not-italic text-[30px] text-[color:var(--hr-ink,#18243b)] top-[118px] whitespace-nowrap" data-node-id="23:853">
+        Documents
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[1.5] left-[52px] not-italic text-[12px] text-[color:var(--hr-muted,#66758c)] top-[154px] whitespace-nowrap" data-node-id="23:854">
+        HackRelay knowledge base / Event handbook
+      </p>
+      <div className="absolute bg-[var(--hr-surface,white)] border border-[var(--hr-border,#dfe5ef)] border-solid content-stretch flex flex-col gap-[14px] h-[700px] items-start left-[52px] overflow-clip p-[20px] rounded-[var(--hr-radius,12px)] shadow-[0px_3px_14px_0px_rgba(23,36,61,0.05)] top-[192px] w-[300px]" data-node-id="23:855" data-name="Document navigation">
+        <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.5] not-italic relative shrink-0 text-[14px] text-[color:var(--hr-ink,#18243b)] whitespace-nowrap" data-node-id="23:856">
+          Contents
+        </p>
+        <div className="bg-[#c2c2c2] h-px relative shrink-0 w-[260px]" data-node-id="23:857" data-name="Navigation divider" />
+        <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.5] not-italic relative shrink-0 text-[13px] text-[color:var(--hr-ink,#18243b)] whitespace-pre" data-node-id="23:858">{`▾  About HackRelay`}</p>
+        <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[1.5] not-italic relative shrink-0 text-[12px] text-[color:var(--hr-muted,#66758c)] whitespace-pre" data-node-id="23:859">{`     Overview`}</p>
+        <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[1.5] not-italic relative shrink-0 text-[12px] text-[color:var(--hr-muted,#66758c)] whitespace-pre" data-node-id="23:860">{`     Platform principles`}</p>
+        <a className="[word-break:break-word] block cursor-pointer font-['Inter:Regular'] font-normal leading-[0] not-italic relative shrink-0 text-[13px] text-[color:var(--hr-muted,#66758c)] whitespace-nowrap" data-node-id="23:861">
+          <p className="leading-[1.5] whitespace-pre">{`▸  Event Rules`}</p>
+        </a>
+        <a className="[word-break:break-word] block cursor-pointer font-['Inter:Regular'] font-normal leading-[0] not-italic relative shrink-0 text-[13px] text-[color:var(--hr-muted,#66758c)] whitespace-nowrap" data-node-id="23:862">
+          <p className="leading-[1.5] whitespace-pre">{`▸  How to use`}</p>
+        </a>
+        <a className="[word-break:break-word] block cursor-pointer font-['Inter:Regular'] font-normal leading-[0] not-italic relative shrink-0 text-[13px] text-[color:var(--hr-muted,#66758c)] whitespace-nowrap" data-node-id="23:863">
+          <p className="leading-[1.5] whitespace-pre">{`▸  Reporting & moderation`}</p>
+        </a>
+      </div>
+      <div className="absolute bg-[var(--hr-surface,white)] border border-[var(--hr-border,#dfe5ef)] border-solid content-stretch flex flex-col gap-[20px] h-[700px] items-start left-[376px] overflow-clip px-[36px] py-[30px] rounded-[var(--hr-radius,12px)] shadow-[0px_3px_14px_0px_rgba(23,36,61,0.05)] top-[192px] w-[1012px]" data-node-id="23:864" data-name="Document article">
+        <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.5] not-italic relative shrink-0 text-[24px] text-[color:var(--hr-ink,#18243b)] w-[940px]" data-node-id="23:865">
+          About HackRelay
+        </p>
+        <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[1.5] not-italic relative shrink-0 text-[14px] text-[color:var(--hr-muted,#66758c)] w-[940px]" data-node-id="23:866">
+          HackRelay is a collaborative event platform for participants, mentors, judges, and organizers. This page explains the product and the shared expectations for working together.
+        </p>
+        <div className="bg-[#c7c7c7] h-px relative shrink-0 w-[940px]" data-node-id="23:867" data-name="Article divider" />
+        <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.5] not-italic relative shrink-0 text-[16px] text-[color:var(--hr-ink,#18243b)] w-[940px]" data-node-id="23:868">
+          What HackRelay supports
+        </p>
+        <div className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[0] not-italic relative shrink-0 text-[13px] text-[color:var(--hr-muted,#66758c)] w-[940px]" data-node-id="23:869">
+          <p className="leading-[1.5] mb-0">• Discover events and challenges</p>
+          <p className="leading-[1.5] mb-0">• Work with a team in a shared workspace</p>
+          <p className="leading-[1.5] mb-0">• Link repositories, documents, and reports</p>
+          <p className="leading-[1.5]">• Track decisions and hand-offs</p>
+        </div>
+        <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.5] not-italic relative shrink-0 text-[16px] text-[color:var(--hr-ink,#18243b)] w-[940px]" data-node-id="23:870">
+          Platform principles
+        </p>
+        <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[1.5] not-italic relative shrink-0 text-[13px] text-[color:var(--hr-muted,#66758c)] w-[940px]" data-node-id="23:871">
+          Keep work visible, communicate respectfully, document important decisions, and use reports only when collaboration needs formal support.
+        </p>
+      </div>
+      <a className="absolute bg-[var(--hr-surface,white)] border border-[var(--hr-border,#dfe5ef)] border-solid content-stretch cursor-pointer flex h-[42px] items-center justify-center left-[52px] overflow-clip rounded-[var(--hr-buttonRadius,8px)] top-[918px] w-[110px]" data-node-id="23:872" data-name="Back button">
+        <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.5] not-italic relative shrink-0 text-[15px] text-[color:var(--hr-ink,#18243b)] text-left whitespace-pre" data-node-id="I23:872;15:96">{`←  Back`}</p>
+      </a>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[1.5] left-[376px] not-italic text-[11px] text-[color:var(--hr-muted,#66758c)] top-[930px] whitespace-pre" data-node-id="23:873">{`Last updated 12 Sep 2026  ·  4 min read`}</p>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## HackRelay/Navigation/Workspace
+**Node ID:** 15:257
+
+Global navigation with Workspace selected.
+
+## HackRelay/Button/Secondary
+**Node ID:** 15:97
+
+Action button; editable label with consistent brand styling.
+Images and SVGs will be stored as constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

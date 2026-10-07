@@ -1,0 +1,188 @@
+export default function Component11OnSiteHelpInteractive() {
+  return (
+    <div className="bg-[var(--hr-canvas,#f4f6fa)] content-stretch flex flex-col items-start relative size-full" data-node-id="23:591" data-name="11 · On-site Help · Interactive">
+      <div className="bg-[var(--hr-nav,#14233e)] content-stretch flex gap-[62px] h-[88px] items-center overflow-clip px-[64px] relative shrink-0 w-[1440px]" data-node-id="23:592" data-name="Navigation">
+        <a className="[word-break:break-word] block cursor-pointer font-['Inter:Bold'] font-bold leading-[0] not-italic opacity-72 relative shrink-0 text-[24px] text-white whitespace-nowrap" data-node-id="I23:592;15:248">
+          <p className="leading-[1.5]">HackRelay</p>
+        </a>
+        <div className="[word-break:break-word] content-stretch cursor-pointer flex gap-[36px] h-[48px] items-center leading-[0] not-italic overflow-clip relative shrink-0 text-[15px] text-white w-[945px] whitespace-nowrap" data-node-id="I23:592;15:249" data-name="Navigation links">
+          <a className="block font-['Inter:Semi_Bold'] font-semibold opacity-72 relative shrink-0" data-node-id="I23:592;15:250">
+            <p className="leading-[1.5]">Events</p>
+          </a>
+          <a className="block font-['Inter:Bold'] font-bold relative shrink-0" data-node-id="I23:592;15:251">
+            <p className="[text-underline-position:from-font] decoration-from-font decoration-solid leading-[1.5] underline">Workspace</p>
+          </a>
+          <a className="block font-['Inter:Medium'] font-medium opacity-72 relative shrink-0" data-node-id="I23:592;15:252">
+            <p className="leading-[1.5]">Repository</p>
+          </a>
+          <a className="block font-['Inter:Medium'] font-medium opacity-72 relative shrink-0" data-node-id="I23:592;15:253">
+            <p className="leading-[1.5]">Docs</p>
+          </a>
+          <a className="block font-['Inter:Medium'] font-medium opacity-72 relative shrink-0" data-node-id="I23:592;15:254">
+            <p className="leading-[1.5]">Report</p>
+          </a>
+        </div>
+        <div className="bg-[var(--hr-surface,white)] content-stretch flex h-[40px] items-center justify-center overflow-clip relative rounded-[20px] shrink-0 w-[48px]" data-node-id="I23:592;15:255" data-name="Profile entry">
+          <a className="[word-break:break-word] block cursor-pointer font-['Inter:Semi_Bold'] font-semibold leading-[0] not-italic relative shrink-0 text-[13px] text-[color:var(--hr-brand,#3059e8)] whitespace-nowrap" data-node-id="I23:592;15:256">
+            <p className="leading-[1.5]">JD</p>
+          </a>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col gap-[24px] h-[1032px] items-start overflow-clip px-[64px] py-[32px] relative shrink-0 w-[1440px]" data-node-id="23:593" data-name="Page content">
+        <div className="[word-break:break-word] content-stretch flex flex-col gap-[6px] h-[72px] items-start leading-[1.5] not-italic overflow-clip relative shrink-0 w-[1312px]" data-node-id="23:594" data-name="Page heading">
+          <p className="font-['Inter:Bold'] font-bold relative shrink-0 text-[30px] text-[color:var(--hr-ink,#18243b)] w-[1312px]" data-node-id="23:595">
+            On-site Help
+          </p>
+          <p className="font-['Inter:Regular'] font-normal h-[23px] relative shrink-0 text-[14px] text-[color:var(--hr-muted,#66758c)] w-[1312px] whitespace-pre-wrap" data-node-id="23:596">{`Workspace   /   Get Help  /   Time left: 04:32`}</p>
+        </div>
+        <div className="content-stretch flex gap-[24px] h-[665px] items-start overflow-clip relative shrink-0 w-[1312px]" data-node-id="23:597" data-name="Main columns">
+          <div className="content-stretch flex flex-col gap-[16px] h-[665px] items-start overflow-clip relative shrink-0 w-[860px]" data-node-id="23:598" data-name="Main area">
+            <div className="bg-[var(--hr-surface,white)] border border-[var(--hr-border,#dfe5ef)] border-solid content-stretch flex flex-col gap-[16px] h-[360px] items-start overflow-clip p-[24px] relative rounded-[var(--hr-radius,12px)] shadow-[0px_3px_14px_0px_rgba(23,36,61,0.05)] shrink-0 w-[860px]" data-node-id="23:599" data-name="Help request">
+              <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.5] not-italic relative shrink-0 text-[18px] text-[color:var(--hr-ink,#18243b)] w-[812px]" data-node-id="23:600">
+                Help request
+              </p>
+              <div className="content-stretch flex flex-col gap-[6px] h-[82px] items-start overflow-clip relative rounded-[var(--hr-radius,12px)] shrink-0 w-[812px]" data-node-id="23:601" data-name="Help category">
+                <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.5] not-italic relative shrink-0 text-[14px] text-[color:var(--hr-ink,#18243b)] w-[812px]" data-node-id="23:602">
+                  Help category
+                </p>
+                <button className="bg-[var(--hr-canvas,#f4f6fa)] border border-[var(--hr-border,#dfe5ef)] border-solid content-stretch cursor-pointer flex flex-col h-[55px] items-start overflow-clip pt-[10px] px-[12px] relative rounded-[var(--hr-buttonRadius,8px)] shrink-0 w-[812px]" data-node-id="23:603" data-name="Help category field">
+                  <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[1.5] not-italic relative shrink-0 text-[14px] text-[color:var(--hr-muted,#66758c)] text-left w-[788px] whitespace-pre-wrap" data-node-id="23:604">{`Technical support  ▾`}</p>
+                </button>
+              </div>
+              <div className="content-stretch flex flex-col gap-[6px] h-[135px] items-start overflow-clip relative rounded-[var(--hr-radius,12px)] shrink-0 w-[812px]" data-node-id="23:605" data-name="Describe what you need">
+                <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.5] not-italic relative shrink-0 text-[14px] text-[color:var(--hr-ink,#18243b)] w-[812px]" data-node-id="23:606">
+                  Describe what you need
+                </p>
+                <a className="bg-[var(--hr-canvas,#f4f6fa)] border border-[var(--hr-border,#dfe5ef)] border-solid content-stretch cursor-pointer flex flex-col h-[108px] items-start overflow-clip pt-[10px] px-[12px] relative rounded-[var(--hr-buttonRadius,8px)] shrink-0 w-[812px]" data-node-id="23:607" data-name="Describe what you need field">
+                  <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[1.5] not-italic relative shrink-0 text-[14px] text-[color:var(--hr-muted,#66758c)] text-left w-[788px]" data-node-id="23:608">
+                    Provide a short description of your issue…
+                  </p>
+                </a>
+              </div>
+              <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[1.5] not-italic relative shrink-0 text-[14px] text-[color:var(--hr-muted,#66758c)] w-[812px]" data-node-id="23:609">
+                Your location: Table 01
+              </p>
+            </div>
+            <div className="bg-[var(--hr-surface,white)] border border-[var(--hr-border,#dfe5ef)] border-solid content-stretch flex flex-col gap-[16px] h-[275px] items-start overflow-clip p-[24px] relative rounded-[var(--hr-radius,12px)] shadow-[0px_3px_14px_0px_rgba(23,36,61,0.05)] shrink-0 w-[860px]" data-node-id="23:610" data-name="Venue map">
+              <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.5] not-italic relative shrink-0 text-[18px] text-[color:var(--hr-ink,#18243b)] w-[812px]" data-node-id="23:611">
+                Venue map
+              </p>
+              <div className="bg-[var(--hr-canvas,#f4f6fa)] content-stretch flex flex-col gap-[12px] h-[175px] items-start overflow-clip p-[12px] relative rounded-[8px] shrink-0 w-[812px]" data-node-id="23:612" data-name="Venue layout">
+                <div className="content-stretch flex gap-[12px] h-[66px] items-start overflow-clip relative shrink-0 w-[780px]" data-node-id="23:613" data-name="Frame">
+                  <div className="[word-break:break-word] bg-[var(--hr-brand,#3059e8)] content-stretch flex flex-col font-['Inter:Medium'] font-medium h-[66px] items-center justify-center leading-[1.5] not-italic overflow-clip relative rounded-[8px] shrink-0 text-[color:var(--hr-onBrand,white)] w-[118px] whitespace-nowrap" data-node-id="23:614" data-name="Table 1">
+                    <p className="relative shrink-0 text-[14px]" data-node-id="23:615">
+                      Table 01
+                    </p>
+                    <p className="relative shrink-0 text-[11px]" data-node-id="23:616">
+                      You are here
+                    </p>
+                  </div>
+                  <div className="bg-[var(--hr-surface,white)] content-stretch flex flex-col h-[66px] items-center justify-center overflow-clip relative rounded-[8px] shrink-0 w-[118px]" data-node-id="23:617" data-name="Table 2">
+                    <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[1.5] not-italic relative shrink-0 text-[14px] text-[color:var(--hr-muted,#66758c)] whitespace-nowrap" data-node-id="23:618">
+                      Table 02
+                    </p>
+                  </div>
+                  <div className="bg-[var(--hr-surface,white)] content-stretch flex flex-col h-[66px] items-center justify-center overflow-clip relative rounded-[8px] shrink-0 w-[118px]" data-node-id="23:619" data-name="Table 3">
+                    <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[1.5] not-italic relative shrink-0 text-[14px] text-[color:var(--hr-muted,#66758c)] whitespace-nowrap" data-node-id="23:620">
+                      Table 03
+                    </p>
+                  </div>
+                  <div className="bg-[var(--hr-surface,white)] content-stretch flex flex-col h-[66px] items-center justify-center overflow-clip relative rounded-[8px] shrink-0 w-[118px]" data-node-id="23:621" data-name="Table 4">
+                    <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[1.5] not-italic relative shrink-0 text-[14px] text-[color:var(--hr-muted,#66758c)] whitespace-nowrap" data-node-id="23:622">
+                      Table 04
+                    </p>
+                  </div>
+                  <div className="bg-[var(--hr-surface,white)] content-stretch flex flex-col h-[66px] items-center justify-center overflow-clip relative rounded-[8px] shrink-0 w-[118px]" data-node-id="23:623" data-name="Table 5">
+                    <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[1.5] not-italic relative shrink-0 text-[14px] text-[color:var(--hr-muted,#66758c)] whitespace-nowrap" data-node-id="23:624">
+                      Table 05
+                    </p>
+                  </div>
+                  <div className="bg-[var(--hr-surface,white)] content-stretch flex flex-col h-[66px] items-center justify-center overflow-clip relative rounded-[8px] shrink-0 w-[118px]" data-node-id="23:625" data-name="Table 6">
+                    <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[1.5] not-italic relative shrink-0 text-[14px] text-[color:var(--hr-muted,#66758c)] whitespace-nowrap" data-node-id="23:626">
+                      Table 06
+                    </p>
+                  </div>
+                </div>
+                <div className="[word-break:break-word] content-stretch flex font-['Inter:Medium'] font-medium gap-[36px] items-start leading-[1.5] not-italic overflow-clip relative shrink-0 text-[12px] text-[color:var(--hr-ink,#18243b)] whitespace-nowrap" data-node-id="23:627" data-name="Frame">
+                  <p className="relative shrink-0" data-node-id="23:628">
+                    ← Entrance
+                  </p>
+                  <p className="relative shrink-0" data-node-id="23:629">
+                    Help desk · Main entrance
+                  </p>
+                  <p className="relative shrink-0" data-node-id="23:630">
+                    Accessible facilities →
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="[word-break:break-word] content-stretch flex flex-col gap-[16px] h-[665px] items-start not-italic overflow-clip relative shrink-0 w-[428px]" data-node-id="23:631" data-name="Side panel">
+            <div className="bg-[var(--hr-surface,white)] border border-[var(--hr-border,#dfe5ef)] border-solid content-stretch flex flex-col gap-[16px] h-[300px] items-start overflow-clip p-[24px] relative rounded-[var(--hr-radius,12px)] shadow-[0px_3px_14px_0px_rgba(23,36,61,0.05)] shrink-0 w-[428px]" data-node-id="23:632" data-name="Request status">
+              <p className="font-['Inter:Semi_Bold'] font-semibold leading-[1.5] relative shrink-0 text-[18px] text-[color:var(--hr-ink,#18243b)] w-[380px]" data-node-id="23:633">
+                Request status
+              </p>
+              <div className="font-['Inter:Regular'] font-normal leading-[0] relative shrink-0 text-[15px] text-[color:var(--hr-muted,#66758c)] w-[380px] whitespace-pre-wrap" data-node-id="23:634">
+                <p className="leading-[1.5] mb-0">Ready to help</p>
+                <p className="leading-[1.5] mb-0">​</p>
+                <p className="leading-[1.5] mb-0">Send a request and a mentor will</p>
+                <p className="leading-[1.5]">meet you at Table 01.</p>
+              </div>
+            </div>
+            <div className="bg-[var(--hr-surface,white)] border border-[var(--hr-border,#dfe5ef)] border-solid content-stretch flex flex-col gap-[16px] h-[335px] items-start overflow-clip p-[24px] relative rounded-[var(--hr-radius,12px)] shadow-[0px_3px_14px_0px_rgba(23,36,61,0.05)] shrink-0 w-[428px]" data-node-id="23:635" data-name="Other support">
+              <p className="font-['Inter:Semi_Bold'] font-semibold leading-[1.5] relative shrink-0 text-[18px] text-[color:var(--hr-ink,#18243b)] w-[380px]" data-node-id="23:636">
+                Other support
+              </p>
+              <div className="font-['Inter:Regular'] font-normal leading-[0] relative shrink-0 text-[15px] text-[color:var(--hr-muted,#66758c)] w-[380px] whitespace-pre-wrap" data-node-id="23:637">
+                <p className="leading-[1.5] mb-0">Help desk · Main entrance</p>
+                <p className="leading-[1.5] mb-0">​</p>
+                <p className="leading-[1.5] mb-0">Ask an event organiser on site</p>
+                <p className="leading-[1.5] mb-0">​</p>
+                <p className="leading-[1.5] mb-0">Accessibility support available</p>
+                <p className="leading-[1.5] mb-0">​</p>
+                <p className="leading-[1.5]">Read the event handbook →</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch cursor-pointer flex gap-[12px] h-[46px] items-center overflow-clip relative shrink-0 w-[1312px]" data-node-id="23:638" data-name="Actions">
+          <button className="bg-[var(--hr-brand,#3059e8)] border border-[var(--hr-border,#dfe5ef)] border-solid content-stretch flex h-[46px] items-center justify-center overflow-clip relative rounded-[var(--hr-buttonRadius,8px)] shrink-0 w-[215px]" data-node-id="23:639" data-name="Send help request">
+            <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.5] not-italic relative shrink-0 text-[15px] text-[color:var(--hr-onBrand,white)] text-left whitespace-nowrap" data-node-id="I23:639;15:93">
+              Send help request
+            </p>
+          </button>
+          <a className="bg-[var(--hr-surface,white)] border border-[var(--hr-border,#dfe5ef)] border-solid content-stretch flex h-[46px] items-center justify-center overflow-clip relative rounded-[var(--hr-buttonRadius,8px)] shrink-0 w-[215px]" data-node-id="23:640" data-name="← Back to workspace">
+            <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.5] not-italic relative shrink-0 text-[15px] text-[color:var(--hr-ink,#18243b)] text-left whitespace-nowrap" data-node-id="I23:640;15:96">
+              ← Back to workspace
+            </p>
+          </a>
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## HackRelay/Navigation/Workspace
+**Node ID:** 15:257
+
+Global navigation with Workspace selected.
+
+## HackRelay/Button/Primary
+**Node ID:** 15:94
+
+Action button; editable label with consistent brand styling.
+
+## HackRelay/Button/Secondary
+**Node ID:** 15:97
+
+Action button; editable label with consistent brand styling.
+Images and SVGs will be stored as constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

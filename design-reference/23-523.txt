@@ -1,0 +1,132 @@
+export default function Component09SharedResourcesInteractive() {
+  return (
+    <div className="bg-[var(--hr-canvas,#f4f6fa)] content-stretch flex flex-col items-start relative size-full" data-node-id="23:523" data-name="09 · Shared Resources · Interactive">
+      <div className="bg-[var(--hr-nav,#14233e)] content-stretch flex gap-[62px] h-[88px] items-center overflow-clip px-[64px] relative shrink-0 w-[1440px]" data-node-id="23:524" data-name="Navigation">
+        <a className="[word-break:break-word] block cursor-pointer font-['Inter:Bold'] font-bold leading-[0] not-italic opacity-72 relative shrink-0 text-[24px] text-white whitespace-nowrap" data-node-id="I23:524;15:248">
+          <p className="leading-[1.5]">HackRelay</p>
+        </a>
+        <div className="[word-break:break-word] content-stretch cursor-pointer flex gap-[36px] h-[48px] items-center leading-[0] not-italic overflow-clip relative shrink-0 text-[15px] text-white w-[945px] whitespace-nowrap" data-node-id="I23:524;15:249" data-name="Navigation links">
+          <a className="block font-['Inter:Semi_Bold'] font-semibold opacity-72 relative shrink-0" data-node-id="I23:524;15:250">
+            <p className="leading-[1.5]">Events</p>
+          </a>
+          <a className="block font-['Inter:Bold'] font-bold relative shrink-0" data-node-id="I23:524;15:251">
+            <p className="[text-underline-position:from-font] decoration-from-font decoration-solid leading-[1.5] underline">Workspace</p>
+          </a>
+          <a className="block font-['Inter:Medium'] font-medium opacity-72 relative shrink-0" data-node-id="I23:524;15:252">
+            <p className="leading-[1.5]">Repository</p>
+          </a>
+          <a className="block font-['Inter:Medium'] font-medium opacity-72 relative shrink-0" data-node-id="I23:524;15:253">
+            <p className="leading-[1.5]">Docs</p>
+          </a>
+          <a className="block font-['Inter:Medium'] font-medium opacity-72 relative shrink-0" data-node-id="I23:524;15:254">
+            <p className="leading-[1.5]">Report</p>
+          </a>
+        </div>
+        <div className="bg-[var(--hr-surface,white)] content-stretch flex h-[40px] items-center justify-center overflow-clip relative rounded-[20px] shrink-0 w-[48px]" data-node-id="I23:524;15:255" data-name="Profile entry">
+          <a className="[word-break:break-word] block cursor-pointer font-['Inter:Semi_Bold'] font-semibold leading-[0] not-italic relative shrink-0 text-[13px] text-[color:var(--hr-brand,#3059e8)] whitespace-nowrap" data-node-id="I23:524;15:256">
+            <p className="leading-[1.5]">JD</p>
+          </a>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col gap-[24px] h-[1032px] items-start overflow-clip px-[64px] py-[32px] relative shrink-0 w-[1440px]" data-node-id="23:525" data-name="Page content">
+        <div className="[word-break:break-word] content-stretch flex flex-col gap-[6px] h-[72px] items-start leading-[1.5] not-italic overflow-clip relative shrink-0 w-[1312px]" data-node-id="23:526" data-name="Page heading">
+          <p className="font-['Inter:Bold'] font-bold relative shrink-0 text-[30px] text-[color:var(--hr-ink,#18243b)] w-[1312px]" data-node-id="23:527">
+            Shared Resources
+          </p>
+          <p className="font-['Inter:Regular'] font-normal h-[23px] relative shrink-0 text-[14px] text-[color:var(--hr-muted,#66758c)] w-[1312px] whitespace-pre-wrap" data-node-id="23:528">{`Workspace   /   Shared Resources   /   Time left: 04:32`}</p>
+        </div>
+        <div className="content-stretch flex gap-[24px] h-[650px] items-start overflow-clip relative shrink-0 w-[1312px]" data-node-id="23:529" data-name="Main columns">
+          <div className="content-stretch flex flex-col gap-[16px] h-[650px] items-start overflow-clip relative shrink-0 w-[860px]" data-node-id="23:530" data-name="Main area">
+            <div className="content-stretch flex flex-col gap-[6px] h-[82px] items-start overflow-clip relative rounded-[var(--hr-radius,12px)] shrink-0 w-[860px]" data-node-id="23:531" data-name="Search & filters">
+              <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.5] not-italic relative shrink-0 text-[14px] text-[color:var(--hr-ink,#18243b)] w-[860px]" data-node-id="23:532">{`Search & filters`}</p>
+              <button className="bg-[var(--hr-canvas,#f4f6fa)] border border-[var(--hr-border,#dfe5ef)] border-solid content-stretch cursor-pointer flex flex-col h-[55px] items-start overflow-clip pt-[10px] px-[12px] relative rounded-[var(--hr-buttonRadius,8px)] shrink-0 w-[860px]" data-node-id="23:533" data-name="Search & filters field">
+                <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[1.5] not-italic relative shrink-0 text-[14px] text-[color:var(--hr-muted,#66758c)] text-left w-[836px] whitespace-pre-wrap" data-node-id="23:534">{`Search resources…                     Type: All  /  Added by: Anyone`}</p>
+              </button>
+            </div>
+            <div className="[word-break:break-word] bg-[var(--hr-surface,white)] border border-[var(--hr-border,#dfe5ef)] border-solid content-stretch flex flex-col gap-[16px] h-[500px] items-start not-italic overflow-clip p-[24px] relative rounded-[var(--hr-radius,12px)] shadow-[0px_3px_14px_0px_rgba(23,36,61,0.05)] shrink-0 w-[860px]" data-node-id="23:535" data-name="Resource list">
+              <p className="font-['Inter:Semi_Bold'] font-semibold leading-[1.5] relative shrink-0 text-[18px] text-[color:var(--hr-ink,#18243b)] w-[812px]" data-node-id="23:536">
+                Resource list
+              </p>
+              <button className="bg-[var(--hr-surface,white)] border border-[var(--hr-border,#dfe5ef)] border-solid content-stretch cursor-pointer flex flex-col gap-[16px] h-[115px] items-start overflow-clip p-[24px] relative rounded-[var(--hr-radius,12px)] shadow-[0px_3px_14px_0px_rgba(23,36,61,0.05)] shrink-0 text-left w-[812px]" data-node-id="23:537" data-name="Resource A — challenge pack">
+                <div className="font-['Inter:Semi_Bold'] font-semibold leading-[0] relative shrink-0 text-[18px] text-[color:var(--hr-ink,#18243b)] w-[764px]" data-node-id="23:538" role="button" tabIndex="0">
+                  <p className="leading-[1.5]">Resource A — challenge pack</p>
+                </div>
+                <p className="font-['Inter:Regular'] font-normal leading-[1.5] relative shrink-0 text-[15px] text-[color:var(--hr-muted,#66758c)] w-[764px]" data-node-id="23:539">
+                  PDF · Alex Chen · 35 min ago
+                </p>
+              </button>
+              <button className="bg-[var(--hr-surface,white)] border border-[var(--hr-border,#dfe5ef)] border-solid content-stretch cursor-pointer flex flex-col gap-[16px] h-[115px] items-start overflow-clip p-[24px] relative rounded-[var(--hr-radius,12px)] shadow-[0px_3px_14px_0px_rgba(23,36,61,0.05)] shrink-0 text-left w-[812px]" data-node-id="23:540" data-name="Resource B — reference link">
+                <div className="font-['Inter:Semi_Bold'] font-semibold leading-[0] relative shrink-0 text-[18px] text-[color:var(--hr-ink,#18243b)] w-[764px]" data-node-id="23:541" role="button" tabIndex="0">
+                  <p className="leading-[1.5]">Resource B — reference link</p>
+                </div>
+                <p className="font-['Inter:Regular'] font-normal leading-[1.5] relative shrink-0 text-[15px] text-[color:var(--hr-muted,#66758c)] w-[764px]" data-node-id="23:542">
+                  Link · Sam Lee · 28 min ago
+                </p>
+              </button>
+              <button className="bg-[var(--hr-surface,white)] border border-[var(--hr-border,#dfe5ef)] border-solid content-stretch cursor-pointer flex flex-col gap-[16px] h-[115px] items-start overflow-clip p-[24px] relative rounded-[var(--hr-radius,12px)] shadow-[0px_3px_14px_0px_rgba(23,36,61,0.05)] shrink-0 text-left w-[812px]" data-node-id="23:543" data-name="Resource C — design file">
+                <div className="font-['Inter:Semi_Bold'] font-semibold leading-[0] relative shrink-0 text-[18px] text-[color:var(--hr-ink,#18243b)] w-[764px]" data-node-id="23:544" role="button" tabIndex="0">
+                  <p className="leading-[1.5]">Resource C — design file</p>
+                </div>
+                <p className="font-['Inter:Regular'] font-normal leading-[1.5] relative shrink-0 text-[15px] text-[color:var(--hr-muted,#66758c)] w-[764px]" data-node-id="23:545">
+                  Figma · Jordan Davis · 12 min ago
+                </p>
+              </button>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col h-[650px] items-start overflow-clip relative shrink-0 w-[428px]" data-node-id="23:546" data-name="Side panel">
+            <button className="[word-break:break-word] bg-[var(--hr-surface,white)] border border-[var(--hr-border,#dfe5ef)] border-solid content-stretch cursor-pointer flex flex-col gap-[16px] h-[550px] items-start leading-[0] not-italic overflow-clip p-[24px] relative rounded-[var(--hr-radius,12px)] shadow-[0px_3px_14px_0px_rgba(23,36,61,0.05)] shrink-0 text-left w-[428px]" data-node-id="23:547" data-name="Resource details">
+              <div className="font-['Inter:Semi_Bold'] font-semibold relative shrink-0 text-[18px] text-[color:var(--hr-ink,#18243b)] w-[380px]" data-node-id="23:548" role="button" tabIndex="0">
+                <p className="leading-[1.5]">Resource details</p>
+              </div>
+              <div className="font-['Inter:Regular'] font-normal relative shrink-0 text-[15px] text-[color:var(--hr-muted,#66758c)] w-[380px] whitespace-pre-wrap" data-node-id="23:549">
+                <p className="leading-[1.5] mb-0">Challenge pack.pdf</p>
+                <p className="leading-[1.5] mb-0">​</p>
+                <p className="leading-[1.5] mb-0">Challenge brief · PDF document</p>
+                <p className="leading-[1.5] mb-0">Added by Alex Chen</p>
+                <p className="leading-[1.5] mb-0">Today, 10:20 AM</p>
+                <p className="leading-[1.5] mb-0">​</p>
+                <p className="leading-[1.5] mb-0">Requirements and judging criteria.</p>
+                <p className="leading-[1.5] mb-0">​</p>
+                <p className="leading-[1.5] mb-0">Linked task: Define user needs</p>
+                <p className="leading-[1.5] mb-0">​</p>
+                <p className="leading-[1.5]">Open resource →</p>
+              </div>
+            </button>
+          </div>
+        </div>
+        <div className="content-stretch cursor-pointer flex gap-[12px] h-[46px] items-center overflow-clip relative shrink-0 w-[1312px]" data-node-id="23:550" data-name="Actions">
+          <button className="bg-[var(--hr-surface,white)] border border-[var(--hr-border,#dfe5ef)] border-solid content-stretch flex h-[46px] items-center justify-center overflow-clip relative rounded-[var(--hr-buttonRadius,8px)] shrink-0 w-[190px]" data-node-id="23:551" data-name="Add resource">
+            <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.5] not-italic relative shrink-0 text-[15px] text-[color:var(--hr-ink,#18243b)] text-left whitespace-nowrap" data-node-id="I23:551;15:96">
+              Add resource
+            </p>
+          </button>
+          <a className="bg-[var(--hr-surface,white)] border border-[var(--hr-border,#dfe5ef)] border-solid content-stretch flex h-[46px] items-center justify-center overflow-clip relative rounded-[var(--hr-buttonRadius,8px)] shrink-0 w-[215px]" data-node-id="23:552" data-name="← Back to workspace">
+            <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.5] not-italic relative shrink-0 text-[15px] text-[color:var(--hr-ink,#18243b)] text-left whitespace-nowrap" data-node-id="I23:552;15:96">
+              ← Back to workspace
+            </p>
+          </a>
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## HackRelay/Navigation/Workspace
+**Node ID:** 15:257
+
+Global navigation with Workspace selected.
+
+## HackRelay/Button/Secondary
+**Node ID:** 15:97
+
+Action button; editable label with consistent brand styling.
+Images and SVGs will be stored as constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

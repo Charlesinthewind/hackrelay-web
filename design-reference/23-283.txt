@@ -1,0 +1,193 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/4162ba1c-ab23-4842-bdc9-9eceffce2c47";
+const imgCommunityConnectionIllustration = `${assetPathPrefix}/7b0b5.svg`;
+
+export default function Component01EventsChallengesInteractive() {
+  return (
+    <div className="bg-[var(--hr-canvas,#f4f6fa)] content-stretch flex flex-col items-start relative size-full" data-node-id="23:283" data-name="01 · Events & Challenges · Interactive">
+      <div className="bg-[var(--hr-nav,#14233e)] content-stretch flex gap-[62px] h-[88px] items-center overflow-clip px-[64px] relative shrink-0 w-[1440px]" data-node-id="23:284" data-name="Navigation">
+        <p className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[1.5] not-italic opacity-72 relative shrink-0 text-[24px] text-white whitespace-nowrap" data-node-id="I23:284;15:197">
+          HackRelay
+        </p>
+        <div className="[word-break:break-word] content-stretch flex gap-[36px] h-[48px] items-center not-italic overflow-clip relative shrink-0 text-[15px] text-white w-[945px] whitespace-nowrap" data-node-id="I23:284;15:198" data-name="Navigation links">
+          <p className="[text-underline-position:from-font] decoration-from-font decoration-solid font-['Inter:Bold'] font-bold leading-[1.5] relative shrink-0 underline" data-node-id="I23:284;15:199">
+            Events
+          </p>
+          <a className="block cursor-pointer font-['Inter:Medium'] font-medium leading-[0] opacity-72 relative shrink-0" data-node-id="I23:284;15:200">
+            <p className="leading-[1.5]">Workspace</p>
+          </a>
+          <a className="block cursor-pointer font-['Inter:Medium'] font-medium leading-[0] opacity-72 relative shrink-0" data-node-id="I23:284;15:201">
+            <p className="leading-[1.5]">Repository</p>
+          </a>
+          <a className="block cursor-pointer font-['Inter:Medium'] font-medium leading-[0] opacity-72 relative shrink-0" data-node-id="I23:284;15:202">
+            <p className="leading-[1.5]">Docs</p>
+          </a>
+          <a className="block cursor-pointer font-['Inter:Medium'] font-medium leading-[0] opacity-72 relative shrink-0" data-node-id="I23:284;15:203">
+            <p className="leading-[1.5]">Report</p>
+          </a>
+        </div>
+        <div className="bg-[var(--hr-surface,white)] content-stretch flex h-[40px] items-center justify-center overflow-clip relative rounded-[20px] shrink-0 w-[48px]" data-node-id="I23:284;15:204" data-name="Profile entry">
+          <a className="[word-break:break-word] block cursor-pointer font-['Inter:Semi_Bold'] font-semibold leading-[0] not-italic relative shrink-0 text-[13px] text-[color:var(--hr-brand,#3059e8)] whitespace-nowrap" data-node-id="I23:284;15:205">
+            <p className="leading-[1.5]">JD</p>
+          </a>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col gap-[28px] h-[952px] items-start overflow-clip px-[64px] py-[40px] relative shrink-0 w-[1440px]" data-node-id="23:285" data-name="Page content">
+        <div className="[word-break:break-word] content-stretch flex flex-col gap-[6px] h-[87px] items-start leading-[1.5] not-italic overflow-clip relative shrink-0 w-[1312px]" data-node-id="23:286" data-name="Page heading">
+          <p className="font-['Inter:Bold'] font-bold relative shrink-0 text-[30px] text-[color:var(--hr-ink,#18243b)] w-[1312px]" data-node-id="23:287">{`Events & Challenges`}</p>
+          <p className="font-['Inter:Regular'] font-normal relative shrink-0 text-[16px] text-[color:var(--hr-muted,#66758c)] w-[1312px]" data-node-id="23:288">
+            Explore the event, choose a challenge, and start building with your team.
+          </p>
+        </div>
+        <div className="content-stretch flex gap-[24px] h-[278px] items-start overflow-clip relative shrink-0 w-[1312px]" data-node-id="23:289" data-name="Event overview">
+          <div className="bg-[var(--hr-tint,#edf2ff)] content-stretch flex flex-col gap-[16px] h-[278px] items-start overflow-clip p-[28px] relative rounded-[var(--hr-radius,12px)] shadow-[0px_3px_14px_0px_rgba(23,36,61,0.05)] shrink-0 w-[860px]" data-node-id="23:290" data-name="Event introduction">
+            <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.5] not-italic relative shrink-0 text-[12px] text-[color:var(--hr-ink,#18243b)] whitespace-pre" data-node-id="23:291">{`HACKRELAY  /  COMMUNITY HACKATHON`}</p>
+            <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.5] not-italic relative shrink-0 text-[30px] text-[color:var(--hr-ink,#18243b)] w-[590px]" data-node-id="23:292">
+              Build something that brings people together.
+            </p>
+            <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[1.5] not-italic relative shrink-0 text-[16px] text-[color:var(--hr-ink,#18243b)] w-[590px]" data-node-id="23:293">
+              Turn a shared challenge into a working idea. Meet collaborators and build a project with real impact.
+            </p>
+            <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[1.5] not-italic relative shrink-0 text-[13px] text-[color:var(--hr-ink,#18243b)] whitespace-pre" data-node-id="23:294">{`01  Choose a challenge     /     02  Find your team     /     03  Start building`}</p>
+            <div className="absolute left-[675px] size-[160px] top-[58px]" data-node-id="23:295" data-name="Community connection illustration">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCommunityConnectionIllustration} />
+            </div>
+          </div>
+          <div className="[word-break:break-word] bg-[var(--hr-surface,white)] border border-[var(--hr-border,#dfe5ef)] border-solid content-stretch flex flex-col gap-[16px] h-[278px] items-start leading-[1.5] not-italic overflow-clip p-[24px] relative rounded-[var(--hr-radius,12px)] shadow-[0px_3px_14px_0px_rgba(23,36,61,0.05)] shrink-0 text-[color:var(--hr-ink,#18243b)] w-[428px] whitespace-nowrap" data-node-id="23:300" data-name="Event information">
+            <p className="font-['Inter:Semi_Bold'] font-semibold relative shrink-0 text-[18px]" data-node-id="23:301">
+              Event information
+            </p>
+            <div className="content-stretch flex flex-col gap-[2px] h-[48px] items-start overflow-clip relative shrink-0 w-[380px]" data-node-id="23:302" data-name="DATE & TIME">
+              <p className="font-['Inter:Semi_Bold'] font-semibold relative shrink-0 text-[11px]" data-node-id="23:303">{`DATE & TIME`}</p>
+              <p className="font-['Inter:Medium'] font-medium relative shrink-0 text-[15px]" data-node-id="23:304">
+                To be announced
+              </p>
+            </div>
+            <div className="content-stretch flex flex-col gap-[2px] h-[48px] items-start overflow-clip relative shrink-0 w-[380px]" data-node-id="23:305" data-name="LOCATION">
+              <p className="font-['Inter:Semi_Bold'] font-semibold relative shrink-0 text-[11px]" data-node-id="23:306">
+                LOCATION
+              </p>
+              <p className="font-['Inter:Medium'] font-medium relative shrink-0 text-[15px]" data-node-id="23:307">
+                Venue to be confirmed
+              </p>
+            </div>
+            <div className="content-stretch flex flex-col gap-[2px] h-[48px] items-start overflow-clip relative shrink-0 w-[380px]" data-node-id="23:308" data-name="ELIGIBILITY">
+              <p className="font-['Inter:Semi_Bold'] font-semibold relative shrink-0 text-[11px]" data-node-id="23:309">
+                ELIGIBILITY
+              </p>
+              <p className="font-['Inter:Medium'] font-medium relative shrink-0 text-[15px]" data-node-id="23:310">
+                Open to all experience levels
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="[word-break:break-word] content-stretch flex flex-col gap-[16px] h-[330px] items-start leading-[1.5] not-italic overflow-clip relative shrink-0 w-[1312px]" data-node-id="23:311" data-name="Challenge selection">
+          <div className="content-stretch flex h-[36px] items-center justify-between overflow-clip relative shrink-0 w-[1312px] whitespace-nowrap" data-node-id="23:312" data-name="Challenge section heading">
+            <p className="font-['Inter:Semi_Bold'] font-semibold relative shrink-0 text-[22px] text-[color:var(--hr-ink,#18243b)]" data-node-id="23:313">
+              Choose your challenge
+            </p>
+            <p className="font-['Inter:Regular'] font-normal relative shrink-0 text-[14px] text-[color:var(--hr-muted,#66758c)]" data-node-id="23:314">
+              3 challenges
+            </p>
+          </div>
+          <div className="content-stretch cursor-pointer flex gap-[20px] h-[270px] items-start overflow-clip relative shrink-0 text-left w-[1312px]" data-node-id="23:315" data-name="Challenge cards">
+            <a className="bg-[var(--hr-tint,#edf2ff)] border-2 border-[var(--hr-brand,#3059e8)] border-solid content-stretch flex flex-col gap-[14px] h-[270px] items-start overflow-clip p-[24px] relative rounded-[var(--hr-radius,12px)] shadow-[0px_3px_14px_0px_rgba(23,36,61,0.05)] shrink-0 w-[424px]" data-node-id="23:316" data-name="Challenge A">
+              <div className="content-stretch flex h-[24px] items-start justify-between overflow-clip relative shrink-0 text-[12px] text-[color:var(--hr-ink,#18243b)] w-[376px] whitespace-nowrap" data-node-id="23:317" data-name="Challenge label">
+                <p className="font-['Inter:Semi_Bold'] font-semibold relative shrink-0" data-node-id="23:318">
+                  CHALLENGE A
+                </p>
+                <p className="font-['Inter:Medium'] font-medium relative shrink-0" data-node-id="23:319">
+                  Selected
+                </p>
+              </div>
+              <p className="font-['Inter:Semi_Bold'] font-semibold relative shrink-0 text-[21px] text-[color:var(--hr-ink,#18243b)] w-[376px]" data-node-id="23:320">
+                Connected communities
+              </p>
+              <p className="font-['Inter:Regular'] font-normal relative shrink-0 text-[15px] text-[color:var(--hr-muted,#66758c)] w-[376px]" data-node-id="23:321">
+                Help people discover local connections and take part in community life.
+              </p>
+            </a>
+            <a className="bg-[var(--hr-surface,white)] border border-[var(--hr-border,#dfe5ef)] border-solid content-stretch flex flex-col gap-[14px] h-[270px] items-start overflow-clip p-[24px] relative rounded-[var(--hr-radius,12px)] shadow-[0px_3px_14px_0px_rgba(23,36,61,0.05)] shrink-0 w-[424px]" data-node-id="23:322" data-name="Challenge B">
+              <div className="content-stretch flex h-[24px] items-start justify-between overflow-clip relative shrink-0 text-[12px] text-[color:var(--hr-ink,#18243b)] w-[376px] whitespace-nowrap" data-node-id="23:323" data-name="Challenge label">
+                <p className="font-['Inter:Semi_Bold'] font-semibold relative shrink-0" data-node-id="23:324">
+                  CHALLENGE B
+                </p>
+                <p className="font-['Inter:Medium'] font-medium relative shrink-0" data-node-id="23:325">
+                  Select
+                </p>
+              </div>
+              <p className="font-['Inter:Semi_Bold'] font-semibold relative shrink-0 text-[21px] text-[color:var(--hr-ink,#18243b)] w-[376px]" data-node-id="23:326">
+                Sustainable campus
+              </p>
+              <p className="font-['Inter:Regular'] font-normal relative shrink-0 text-[15px] text-[color:var(--hr-muted,#66758c)] w-[376px]" data-node-id="23:327">
+                Make sustainable habits part of everyday campus life.
+              </p>
+            </a>
+            <a className="bg-[var(--hr-surface,white)] border border-[var(--hr-border,#dfe5ef)] border-solid content-stretch flex flex-col gap-[14px] h-[270px] items-start overflow-clip p-[24px] relative rounded-[var(--hr-radius,12px)] shadow-[0px_3px_14px_0px_rgba(23,36,61,0.05)] shrink-0 w-[424px]" data-node-id="23:328" data-name="Challenge C">
+              <div className="content-stretch flex h-[24px] items-start justify-between overflow-clip relative shrink-0 text-[12px] text-[color:var(--hr-ink,#18243b)] w-[376px] whitespace-nowrap" data-node-id="23:329" data-name="Challenge label">
+                <p className="font-['Inter:Semi_Bold'] font-semibold relative shrink-0" data-node-id="23:330">
+                  CHALLENGE C
+                </p>
+                <p className="font-['Inter:Medium'] font-medium relative shrink-0" data-node-id="23:331">
+                  Select
+                </p>
+              </div>
+              <p className="font-['Inter:Semi_Bold'] font-semibold relative shrink-0 text-[21px] text-[color:var(--hr-ink,#18243b)] w-[376px]" data-node-id="23:332">
+                Inclusive learning
+              </p>
+              <p className="font-['Inter:Regular'] font-normal relative shrink-0 text-[15px] text-[color:var(--hr-muted,#66758c)] w-[376px]" data-node-id="23:333">
+                Make learning and collaboration more accessible to everyone.
+              </p>
+            </a>
+          </div>
+        </div>
+        <div className="content-stretch flex h-[76px] items-center justify-between overflow-clip relative shrink-0 w-[1312px]" data-node-id="23:334" data-name="Actions">
+          <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[1.5] not-italic relative shrink-0 text-[14px] text-[color:var(--hr-muted,#66758c)] w-[650px]" data-node-id="23:335">
+            Challenge A selected. Explore the brief to see the full requirements.
+          </p>
+          <div className="content-stretch cursor-pointer flex gap-[16px] h-[48px] items-center overflow-clip relative shrink-0 w-[660px]" data-node-id="23:336" data-name="Action buttons">
+            <a className="bg-[var(--hr-surface,white)] border border-[var(--hr-border,#dfe5ef)] border-solid content-stretch flex h-[48px] items-center justify-center overflow-clip relative rounded-[var(--hr-buttonRadius,8px)] shrink-0 w-[178px]" data-node-id="23:337" data-name="My workspace">
+              <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.5] not-italic relative shrink-0 text-[15px] text-[color:var(--hr-ink,#18243b)] text-left whitespace-nowrap" data-node-id="I23:337;15:96">
+                My workspace
+              </p>
+            </a>
+            <a className="bg-[var(--hr-brand,#3059e8)] border border-[var(--hr-border,#dfe5ef)] border-solid content-stretch flex h-[48px] items-center justify-center overflow-clip relative rounded-[var(--hr-buttonRadius,8px)] shrink-0 w-[250px]" data-node-id="23:338" data-name="Explore challenge →">
+              <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.5] not-italic relative shrink-0 text-[15px] text-[color:var(--hr-onBrand,white)] text-left whitespace-nowrap" data-node-id="I23:338;15:93">
+                Explore challenge →
+              </p>
+            </a>
+            <a className="bg-[var(--hr-surface,white)] border border-[var(--hr-border,#dfe5ef)] border-solid content-stretch flex h-[46px] items-center justify-center overflow-clip relative rounded-[var(--hr-buttonRadius,8px)] shrink-0 w-[200px]" data-node-id="24:1378" data-name="Project showcase">
+              <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.5] not-italic relative shrink-0 text-[15px] text-[color:var(--hr-ink,#18243b)] text-left whitespace-nowrap" data-node-id="I24:1378;15:96">
+                Project showcase
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## HackRelay/Navigation/Events
+**Node ID:** 15:206
+
+Global navigation with Events selected.
+
+## HackRelay/Button/Secondary
+**Node ID:** 15:97
+
+Action button; editable label with consistent brand styling.
+
+## HackRelay/Button/Primary
+**Node ID:** 15:94
+
+Action button; editable label with consistent brand styling.
+Images and SVGs will be stored as constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.
