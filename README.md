@@ -1,71 +1,80 @@
-# HackRelay — 可交互网页
+# HackRelay — Interactive Web App
 
-根据 Figma `high` 高保真设计实现的 React 应用，配有本地 Node.js 协作服务。仓库位置：`/Users/charleszhao/Desktop/learn/social computing/hackrelay-web`。
+A React application based on the high-fidelity designs in the Figma `high` file, with a local Node.js collaboration server.
 
-## 启动
+## Getting Started
 
-需要 Node.js 22 或更新版本。首次运行：
+Requires Node.js 22 or later. Clone the repository and start the development server:
 
 ```sh
-cd "/Users/charleszhao/Desktop/learn/social computing/hackrelay-web"
+git clone https://github.com/Charlesinthewind/hackrelay-web.git
+cd hackrelay-web
 npm install
 npm run dev
 ```
 
-打开 http://localhost:5173 。运行时终端还会显示同一网络的访问地址。请保持终端里的服务运行。端口可用 `PORT=5174 npm run dev` 更改。
+Open [http://localhost:5173](http://localhost:5173). The terminal also displays an address for devices on the same network. Keep the server running while using the application. To change the port, run `PORT=5174 npm run dev`.
 
-## 验证真人协作
+## Testing Real-Time Collaboration
 
-1. 打开 Repository，点击右上角头像，填写自己的名字。
-2. 点击 Invite teammate，复制完整链接给同伴。同一台电脑可以使用另一个浏览器或无痕窗口。
-3. 其他设备需连接同一 Wi-Fi，并使用终端显示的局域网地址，例如 `http://10.13.103.72:5173/code?room=team-a`；地址可能随网络变化。其他设备不能用 localhost 连接你的电脑。
-4. 各自在右上角设置不同名字，然后同时输入、删除代码、选中一段文本。更改、彩色光标与选择范围实时同步；光标悬停时显示名字。
-5. 同一个 `room` 参数共享内容；不同 room 的代码、任务、画布、资源和记录相互独立。
+1. Open **Repository**, click the avatar in the top-right corner, and enter your display name.
+2. Click **Invite teammate** and share the complete session link. To test on one computer, use another browser or a private browsing window.
+3. For other devices, connect to the same Wi-Fi and use the local network address printed in the terminal, such as `http://192.168.1.10:5173/code?room=team-a`. Replace the example IP with your computer's actual address. Other devices cannot use `localhost` to reach your computer.
+4. Set a different display name in each browser, then type, delete, and select code simultaneously. Text changes, colored cursors, and selections synchronize live. Hover over a remote cursor to see its display name.
+5. Sessions with the same `room` parameter share content. Different rooms have independent code, tasks, workflows, resources, and records.
 
-这是文本协作编辑器，包含 App.tsx、styles.css、README.md 三个示例文件、语法高亮、个人撤销及文件下载。它不执行代码。
+The shared text editor includes three example files: `App.tsx`, `styles.css`, and `README.md`. It supports syntax highlighting, undo for your own edits, and file downloads. It does not execute code.
 
-## 已实现的交互
+## Interactive Features
 
-- **Workflow**：新增、修改、删除节点；拖动节点；从右侧输出点拖到左侧输入点建立有向连接，支持分支和汇合；点击连线后可删除；滚轮缩放、拖动空白区域平移、缩放按钮和适配画布。右下角把手可拖动调整画布大小，右上角可在本页展开。
-- **Kanban**：新增、修改、删除任务，通过卡片左上角把手跨列拖动或重新排序；也可在编辑表单修改状态。任务详情支持依赖链接、自由输入交接笔记、评论和标记待审。
-- **Recent activity**：记录真实编辑操作，打开对应任务、资源、代码文件、画布节点或提交记录；支持筛选和导出。已删除项目显示不可用状态或返回对应列表。
-- **其他页面**：活动与挑战、找队伍与创建队伍、共享资源（文本、链接及最高 5 MB 文件）、现场求助、提交草稿与预览、确认提交、项目展示、报告列表和详情、补充报告信息、文档及个人资料。
-- **报告和交接 UI**：交接笔记采用可输入的完整文本区域；报告列表采用有表头的对齐表格；移动端可用。
+- **Workflow:** Add, edit, delete, and drag blocks. Drag from a right-side output handle to a left-side input handle to create directed connections, including branches and merges. Select a connection to delete it. Zoom with the mouse wheel or controls, pan by dragging empty space, and fit the diagram to the viewport. Drag the bottom-right grip to resize the canvas or expand it within the current page.
+- **Kanban:** Add, edit, and delete tasks. Use the handle at the top-left of a card to reorder tasks or move them between columns. Task status can also be changed in the edit form. Task details include dependency links, editable handoff notes, comments, and a ready-for-review action.
+- **Recent Activity:** Records actual editing actions and links to the corresponding task, resource, code file, workflow block, or submission. Supports filtering and export. Deleted items show an unavailable state or return to the relevant list.
+- **Other Pages:** Events and challenges, team discovery and creation, shared resources (documents, links, and files up to 5 MB), on-site help requests, submission drafts and previews, submission confirmation, project showcase, reports and additional report information, documentation, and profiles.
+- **Reports and Handoffs:** Handoff notes use editable text areas. Reports appear in an aligned table with column headings. Layouts also support mobile screens.
 
-## 保存与服务
+## Data and Collaboration Server
 
-浏览器通过 WebSocket 连接 Node.js 服务；代码使用 Yjs CRDT 合并并发输入，光标使用 awareness 临时同步。业务记录也存储在共享 Yjs 文档中。房间数据自动写入 `data/<room>.bin`，重启服务后恢复。浏览器个人名字、颜色保存在 localStorage。`data` 不提交到 Git；备份该目录可保留演示内容。
+Browsers connect to the Node.js server through WebSocket. Code editing uses Yjs CRDTs to merge concurrent changes, while Yjs awareness synchronizes temporary cursor and presence information. Application records are stored in shared Yjs documents.
 
-目前是适合作业演示的本地/局域网版本，没有登录鉴权或正式的组织者审批后台。报告列表按当前浏览器身份筛选，不构成服务器权限隔离；请使用演示数据。示例活动、团队、任务与展示项目是初始数据，后续添加的内容和协作编辑会实际保存。未部署到公网。
+Room data is automatically saved to `data/<room>.bin` and restored after a server restart. Display names and colors are stored in the browser's localStorage. The `data` directory is excluded from Git; back it up to retain your demonstration content.
 
-## 构建与测试
+This is a local/LAN prototype for assignment demonstrations. It has no login authentication or production organizer approval backend. Reports are filtered by the current browser identity, which does not provide server-side access control; use demonstration data. Events, teams, tasks, and showcase projects include initial sample content. Newly added content and collaborative edits are saved. The application has not been deployed to the public internet.
+
+## Production Build
 
 ```sh
 npm run build
 npm start
 ```
 
-生产模式仍由 Node.js 同时提供网页和 WebSocket；仅托管静态 dist 文件无法实现跨设备同步。
+In production, Node.js serves both the website and the WebSocket connection. Hosting only the static `dist` directory will not provide cross-device collaboration.
+
+## Tests
 
 ```sh
 npm test
-# 首次运行浏览器测试需要安装 Chromium
+
+# Install Chromium before running browser tests for the first time.
 npx playwright install chromium
-# 另一个终端先运行 npm run dev
+
+# Start npm run dev in another terminal, then run:
 npm run test:ui
 ```
 
-网络测试验证独立客户端并发合并、删除、在线身份/光标、任务与图数据同步、房间隔离和服务重启恢复。浏览器测试验证两个独立会话的同步与光标、画布和任务操作、交接笔记持久化、资源/提交/报告流程、活动目标链接及移动端页面。测试截图位于 tests/artifacts。
+Network tests cover concurrent edits and deletions between independent clients, presence and cursor synchronization, task and workflow synchronization, room isolation, and persistence across server restarts.
 
-## 代码结构
+Browser tests cover synchronization and cursors in two independent sessions, workflow and Kanban operations, handoff note persistence, resource/submission/report flows, activity links to specific items, and mobile layouts. Test screenshots are saved in `tests/artifacts`.
 
-- `src/Editor.jsx`：CodeMirror + Yjs 实时编辑器
-- `src/Workflow.jsx`：React Flow 可编辑画布
-- `src/Kanban.jsx`：dnd-kit 看板与任务表单
-- `src/Workspace.jsx`：工作区、交接与活动
-- `src/Pages.jsx`：其余页面和表单
-- `src/store.jsx`：房间连接、身份、共享数据和活动
-- `server/index.js`、`server/seed.js`：WebSocket 服务、持久化与初始内容
-- `design-reference/`：Figma 设计参考
+## Project Structure
 
-未调用外部 AI 服务，也无需 API 密钥。
+- `src/Editor.jsx` — CodeMirror and Yjs shared editor
+- `src/Workflow.jsx` — React Flow editable workflow canvas
+- `src/Kanban.jsx` — dnd-kit Kanban board and task forms
+- `src/Workspace.jsx` — Workspace, handoff, and activity pages
+- `src/Pages.jsx` — Other pages and forms
+- `src/store.jsx` — Room connections, identity, shared data, and activity records
+- `server/index.js` and `server/seed.js` — WebSocket server, persistence, and initial content
+- `design-reference/` — Figma design references
+
+No external AI service or API key is required.
